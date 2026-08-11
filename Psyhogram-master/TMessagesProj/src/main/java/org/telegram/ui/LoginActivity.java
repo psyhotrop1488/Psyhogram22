@@ -4915,8 +4915,6 @@ client.newCall(httpReq).enqueue(new Callback() {
 break; 
 }
 
-        }
-
         private void shakeWrongCode() {
             try {
                 codeFieldContainer.performHapticFeedback(HapticFeedbackConstants.KEYBOARD_TAP, HapticFeedbackConstants.FLAG_IGNORE_GLOBAL_SETTING);
