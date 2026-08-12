@@ -5119,8 +5119,7 @@ break;
         }
     }
 
-
-    public class LoadingTextView extends TextView {
+        class LoadingTextView extends TextView {
 
         private final Drawable rippleDrawable = Theme.createSelectorDrawable(Theme.multAlpha(Theme.getColor(Theme.key_windowBackgroundWhiteValueText), .10f), Theme.RIPPLE_MASK_ROUNDRECT_6DP);
         public final LoadingDrawable loadingDrawable = new LoadingDrawable();
@@ -10252,4 +10251,6 @@ break;
         clearSheets();
         parentLayout = null;
     }
+}
+}
 }
